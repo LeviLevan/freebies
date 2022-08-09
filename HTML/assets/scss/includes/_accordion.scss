@@ -1,0 +1,64 @@
+section.accordion {
+    padding: 0 0 100px 0;
+    .title-subtitle-section {
+    margin-bottom: 80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+        span {
+            font-size: 24px;
+            color: #333333;
+            font-weight: 400;
+            font-family: "Kaushan Script";
+        }
+        h2 {
+            font-size: 30px;
+            padding: 10px 0 20px 0;
+            color: #333333;
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+        }
+         p {
+            font-size: 15px;
+            line-height: 24px;
+            color: #999999;
+            font-weight: 400;
+            font-family: "Roboto";
+            text-align: center;
+            padding-top: 25px;
+        }
+    }
+}
+div#accordionExample{
+    .card{
+    margin-bottom:13px;
+        .card-header{
+        background-color: rgba(0,0,0,0);
+            button.btn.btn-link{
+                span {
+                    font-size: 14px;
+                    color: #333333;
+                    font-weight: 400;
+                    font-family: "Montserrat";
+                    text-transform: uppercase;
+                    margin-left: 12px;
+                }
+            }
+            .btn-link.focus, .btn-link:focus,.btn-link:hover {
+                text-decoration: none;
+            }
+        }
+        .collapse {
+            .card-body{
+                font-size: 15px;
+                line-height: 24px;
+                color: #999999;
+                font-weight: 300;
+                font-style: italic;
+                font-family: "Roboto";
+            }
+        }
+    }
+}

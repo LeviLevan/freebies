@@ -1,0 +1,30 @@
+{
+  "name": "pediatric",
+  "version": "1.0.0",
+  "description": "=== Twenty Twenty-Two === Contributors: wordpressdotorg Requires at least: 5.9 Tested up to: 6.0 Requires PHP: 5.6 Stable tag: 1.2 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npm/npm/issues"
+  },
+  "homepage": "https://github.com/npm/npm#readme",
+  "dependencies": {
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.0"
+  }
+}

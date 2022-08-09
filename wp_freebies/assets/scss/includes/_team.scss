@@ -1,0 +1,193 @@
+section.team {
+    padding: 0 0 100px 0;
+    .title-subtitle-section {
+    margin-bottom: 80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+        span {
+            font-size: 24px;
+            color: #333333;
+            font-weight: 400;
+            font-family: "Kaushan Script";
+        }
+        h2 {
+            font-size: 30px;
+            padding: 10px 0 20px 0;
+            color: #333333;
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+        }
+         p {
+            font-size: 15px;
+            line-height: 24px;
+            color: #999999;
+            font-weight: 400;
+            font-family: "Roboto";
+            text-align: center;
+            padding-top: 25px;
+        }
+    }
+}
+
+.team{
+    .box-item-team {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .team-img{
+            height:460px;
+            width:auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    .content-social{
+        a {
+            display: flex;
+            flex-direction: column;
+        }
+        span.name {
+            padding: 25px 0 0 0;
+            font-size: 14px;
+            color: #333333;
+            font-weight: 400;
+            font-family: "Montserrat";
+            text-align: center;
+        }
+        span.position {
+            font-size: 15px;
+            line-height: 24px;
+            color: #999999;
+            font-weight: 300;
+            font-style: italic;
+            font-family: "Roboto";
+            text-align: center;
+        }
+    }
+    ul.team_socials{
+        transition: all 0.4s ease-in-out;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+        background: #fce38a;
+        padding: 15px 20px;
+        border-left: 1px solid #f38181;
+            a{
+                i::before {
+                    font-size: 24px;
+                    color:#f38181;  
+                }
+            }  
+        } 
+        li:hover i::before{
+            color:#fff;
+        }
+        li:nth-child(1){
+            border-left: transparent;
+        }
+    }
+    .box-item-team .team-img::before{
+        transition: all 0.3s ease-in-out;
+        opacity:0;
+    }
+    .box-item-team:hover .team-img::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            transition: all 0.3s ease-in-out;
+            opacity: 0.8;
+            background-image: linear-gradient(0deg, #fbe389 0%, #f48b82 100%);
+        }
+    .box-item-team:hover ul.team_socials{
+        opacity: 1;
+        z-index: 9;
+        visibility: visible;
+        transition: all 0.2s ease-in-out;
+    } 
+}
+.team-image-container {
+    position: relative;
+}
+.box-item-team .team-img {
+    position: relative;
+    top: 0px;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+}
+.box-item-team:hover .team-img {
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+.box-item-team:hover .background-team {
+    background-color: #95e1d3;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+}
+.button_team {
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid #f38181;
+    padding: 8px 30px;
+    max-width: 160px;
+    display: flex;
+    margin: 45px auto 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+header.page-header {
+    h1 {
+        font-size: 30px;
+        padding: 10px 0 20px 0;
+        color: #333333;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.archive-item {
+    margin-top: 100px;
+    .post-title {
+        font-size: 24px;
+        color: #333333;
+        font-weight: 400;
+        font-family: "Kaushan Script";
+    }
+    .post-content {
+        font-size: 15px;
+        line-height: 24px;
+        color: #999999;
+        font-weight: 400;
+        font-family: "Roboto";
+        text-align: left;
+        padding-top: 25px;
+    }
+    .post-thumbnail a img {
+        height: auto;
+        width: 100%;
+        max-height: 400px;
+        object-fit: contain;    
+    }
+}
+.post-nav {
+    margin: 50px 0;
+    .page-numbers {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import 'includes/vars.scss';
+@import 'includes/fonts.scss';
+@import 'includes/slider.scss';
+@import 'includes/rd-navbar.scss';
+@import 'includes/posts.scss';
+@import 'includes/team.scss';
+@import 'includes/accordion.scss';
+body { overflow: hidden; overflow-y: auto; background: $whiteColor; font-family: 'Roboto', sans-serif; }
+body,h1,h2,h3,h4,h5,h6,li,p,table,ul { margin: 0; padding: 0; list-style: none; }
+a {color: #333; text-decoration: none;}a:hover{text-decoration: none;}
+.container{
+	max-width: 1200px;
+}
+hr{
+	width: 60px;
+	height: 3px;
+	background-color: #ffffff;
+}
+hr.red{
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+}

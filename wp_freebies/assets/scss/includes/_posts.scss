@@ -1,0 +1,86 @@
+section.posts {
+    padding: 100px 0 75px 0;
+    .title-subtitle-section {
+    margin-bottom: 40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+        span {
+            font-size: 24px;
+            color: #333333;
+            font-weight: 400;
+            font-family: "Kaushan Script";
+        }
+        h2 {
+            font-size: 30px;
+            padding: 10px 0 20px 0;
+            color: #333333;
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+        }
+    }
+    article{
+        margin-bottom: 25px;
+         img {
+            width: 380px;
+            max-height: 240px;
+            object-fit: cover;
+        }
+        time{
+            position: absolute;   
+            top: 145px;
+            left: 5px;            
+            background-color: #95e1d3;
+            color: #ffffff;
+            font-weight: 300;
+            padding: 5px 0;
+            font-family: "Montserrat";
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            width: 60px;
+            span{
+                font-size: 30px;
+                font-weight: 700;
+            }
+            @media(max-width:1199px){
+                top:0;
+            }
+        }
+        header h4 {
+            font-size: 14px;
+            padding: 20px 0 12px 0;
+            color: #333333;
+            font-weight: 400;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 15px;
+            line-height: 24px;
+            color: #999999;
+            font-weight: 400;
+            font-family: "Roboto";
+        }
+    }
+}
+h3 {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+}
+p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
